@@ -1,7 +1,7 @@
 import os
 
 base = "/Users/ryan/Utility/convert/fgen/"
-delnumber = 100
+delnumber = 50
 for dirName, subdirList, fileList in os.walk(base):
     for fl in fileList:
         if delnumber > 0:
